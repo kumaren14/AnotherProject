@@ -14,10 +14,11 @@ print("I said: %r.:" % x)
 print("I also said: '%s'. " % y)
 
 #once again, more substitution to make it easier and cleaner when printing
-hilarious = True
+hilarious = False
 jokeEvaluation = "Isn't that joke so funny?!?! %r"
 print(jokeEvaluation % hilarious)
 
+# oh look, we're adding strings together now
 w = "This is the left side of..."
 e = "a string with a right side"
 print(w+e)
@@ -26,7 +27,10 @@ print(w+e)
 print("Mary had a little lamb.")
 print("Its fleece was white as %s" % 'snow')
 print("And everywhere that Mary went")
-print("." * 10)
+# look, we can even repeat strings a certain number of times
+print("." * 4)
+
+#now we creating a separate substition for each letter
 end1 = "N"
 end2 = "o"
 end3 = "t"
@@ -36,8 +40,12 @@ end6 = "n"
 end7 = "n"
 end8 = "y"
 
+# now we can add all these substituted letters to make a full sentence
 print(end1+end2+end3)
 print(end4+end5+end6+end7+end8)
-print("P.S. - This isn't funny. I did not like typing this out.")
+print("P.S. - Not Funny. Didn't Laugh.")
 
-# isn't programming supposed to be about making things easier? Not MORE COMPLEX THAN THEY NEED TO BE
+formatter = "%r %r %r %r %r"
+print(formatter & (1, 2, 3, 4))
+print(formatter % (True, False, True, False))
+print(formatter % ((formatter, formatter, formatter, formatter))
