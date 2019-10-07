@@ -1,6 +1,6 @@
 # more strings and tests
 
-# these four lines right here use % as type of substitution with the proper letters to insert the phrases into printed lines
+# these six lines right here use % as type of substitution with the proper letters to insert the phrases into printed lines
 x = "There are %d types of people" % 10
 binary = "binary"
 doNot = "don't"
@@ -9,9 +9,11 @@ y = "Those who know %s and those who %s" % (binary, doNot)
 print(x)
 print(y)
 
+# these use quotations in quotations and
 print("I said: %r.:" % x)
 print("I also said: '%s'. " % y)
 
+#once again, more substitution to make it easier and cleaner when printing
 hilarious = True
 jokeEvaluation = "Isn't that joke so funny?!?! %r"
 print(jokeEvaluation % hilarious)
@@ -25,19 +27,17 @@ print("Mary had a little lamb.")
 print("Its fleece was white as %s" % 'snow')
 print("And everywhere that Mary went")
 print("." * 10)
-end1 = "C"
-end2 = "h"
-end3 = "e"
-end4 = "e"
-end5 = "s"
-end6 = "e"
-end7 = "B"
-end8 = "u"
-end9 = "r"
-end10 = "g"
-end11 = "e"
-end12 = "r"
+end1 = "N"
+end2 = "o"
+end3 = "t"
+end4 = "f"
+end5 = "u"
+end6 = "n"
+end7 = "n"
+end8 = "y"
 
-print(end1+end2+end3+end4+end5+end6)
-print(end7+end8+end9+end10+end11+end12)
-print("P.S. - This isn't funny. I did not like typing this out. If this his style of humor, I am seriously concerned")
+print(end1+end2+end3)
+print(end4+end5+end6+end7+end8)
+print("P.S. - This isn't funny. I did not like typing this out.")
+
+# isn't programming supposed to be about making things easier? Not MORE COMPLEX THAN THEY NEED TO BE
