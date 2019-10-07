@@ -1,5 +1,6 @@
 # more strings and tests
 
+# these four lines right here use % as type of substitution with the proper letters to insert the phrases into printed lines
 x = "There are %d types of people" % 10
 binary = "binary"
 doNot = "don't"
