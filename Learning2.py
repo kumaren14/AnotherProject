@@ -45,7 +45,23 @@ print(end1+end2+end3)
 print(end4+end5+end6+end7+end8)
 print("P.S. - Not Funny. Didn't Laugh.")
 
-formatter = "%r %r %r %r %r"
-print(formatter & (1, 2, 3, 4))
-print(formatter % (True, False, True, False))
-print(formatter % ((formatter, formatter, formatter, formatter))
+
+
+# WHY DO I USE %R  above instead of %s
+#which should i use on a regular basis
+#why does %r sometimes only give me single quotes
+
+periods = "Band Alg2 Bio Eng HuGeo Geom Deb Pro"
+months = "Jan\nFed\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOCt\nNOv\nDec"
+
+print("Here are my periods", periods)
+print("Here are the months", months)
+
+print(""" 
+Oh look
+With the triple double quotations, 
+we can write things on multiple lines
+as long as we want
+hahahhahahhhahahahahahahahahahahahhaha""")
+
+
