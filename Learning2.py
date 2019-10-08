@@ -70,4 +70,46 @@ hahahhahahhhahahahahahahahahahahahhaha""")
 # hey look we can use %r to directly print all the code we have, even with other things in there that are actual code, not just words
 print("here are the months: %r" % months)
 
+code = "print(""here are the months: %r"" % months)"
+print("Here is the code for the previous command: %r" % code)
+
+# %r isnt the friendliest with quotations
+
+# we can use /n to go onto new line, \\ to put in a backslash, and and \t to tab the line forward
+# we can also use """ to write on separate lines
+
+#escape senquences redux
+tabbyCat = "\tIm tabbed in"
+persianCat = ("Im split\non a line")
+backslashCat = ("Im \\ a \\ cat")
+topCat = """
+Ill do a list
+\t* cat food
+\t* fish
+\t* milk
+\t* catnip 
+\t* mice"""
+
+print(tabbyCat)
+print(persianCat)
+print(backslashCat)
+print(topCat)
+
+# escape seq     what it does?
+# \\                  add backslash
+#\'                     adds '
+#\"                       adds "
+#\a                   adds a bell sound
+#\b                     backscpace
+#\f                    new line and indent
+#\n                     new line
+#\N{name}                can add characters from unicode
+# \r                                 
+#\t
+#\uxxx
+#\Uxxx
+#\Uxxxxxxx
+#\v
+#\ooo
+#\xhh
 
