@@ -47,21 +47,27 @@ print("P.S. - Not Funny. Didn't Laugh.")
 
 
 
-# WHY DO I USE %R  above instead of %s
-#which should i use on a regular basis
-#why does %r sometimes only give me single quotes
 
+
+#some more basic printing
 periods = "Band Alg2 Bio Eng HuGeo Geom Deb Pro"
+
+#By adding \n, we can create a new line between each word
+
 months = "Jan\nFed\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOCt\nNOv\nDec"
 
 print("Here are my periods", periods)
 print("Here are the months", months)
 
+# """ enables us to write a lot more across multiple lines
 print(""" 
 Oh look
 With the triple double quotations, 
 we can write things on multiple lines
 as long as we want
 hahahhahahhhahahahahahahahahahahahhaha""")
+
+# hey look we can use %r to directly print all the code we have, even with other things in there that are actual code, not just words
+print("here are the months: %r" % months)
 
 
