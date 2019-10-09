@@ -97,19 +97,36 @@ print(topCat)
 
 # escape seq     what it does?
 # \\                  add backslash
-#\'                     adds '
-#\"                       adds "
+#\'                   adds '
+#\"                   adds "
 #\a                   adds a bell sound
-#\b                     backscpace
-#\f                    new line and indent
-#\n                     new line
-#\N{name}                can add characters from unicode
-# \r                                 
-#\t
-#\uxxx
+#\b                   backscpace
+#\f                   new line and indent
+#\n                   new line
+#\N{name}             can add characters from unicode
+# \r                  deletes anything on that comes before it on the same line
+#\t                   tabs the line
+#\uxxx                all of these below are used to print unicode characters, but you need to know the code
 #\Uxxx
 #\Uxxxxxxx
 #\v
 #\ooo
 #\xhh
 
+
+# cool look this shows us our keystrokes
+#   while true
+#       for i in ["/", "-", "|" "\\", "|"]:
+#            print("%s\r" % i, ends='')
+
+# you can use ''' instead of """
+
+#
+
+print(''' hello
+my name is kumaren''')
+
+age = input("How old are you?")
+height = input("how tall are you?")
+
+print("So, you are %r old and %r tall." % (age, height)
