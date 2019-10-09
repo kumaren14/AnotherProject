@@ -119,14 +119,35 @@ print(topCat)
 #       for i in ["/", "-", "|" "\\", "|"]:
 #            print("%s\r" % i, ends='')
 
-# you can use ''' instead of """
+# what that code does is print our the keystrokes you typed, as a kind of animation
 
-#
+# you can use ''' instead of """
 
 print(''' hello
 my name is kumaren''')
 
+# cool you can ask questions and what gets printed afterwards is based off your response
 age = input("How old are you?")
-height = input("how tall are you?")
+height = input("How tall are you?")
 
-print("So, you are %r old and %r tall." % (age, height)
+print("So, you are %r old and %r tall." % (age, height))
+
+favoriteClass = input("What is your favorite class?")
+print("I assume you enjoy going to %r" % (favoriteClass))
+
+feeling = input("How are you feeling today?")
+print("You're %r? Well, as long as you're not dead, you're fine." % feeling)
+
+sky = input("What color is the sky?")
+print("""No, it's not %r, idiot. It's the color of my sorrow as I contemplate our inevitable demise.
+
+Just kidding its %r
+
+""" % (sky))
+
+artist = input("Who's your favorite artist")
+gender = input("Is it a he or a she?")
+print("%r, huh? Yeah, %r have some pretty good paintings" % (artist, gender))
+
+
+
