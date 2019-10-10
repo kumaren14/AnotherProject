@@ -142,9 +142,10 @@ grade = input("What grade are you in?")
 pronoun = input("Do you want to be called he or she?")
 school = input("What school do you go too?")
 height = input("How tall are you?")
+friend = input("what is the name of one of your friends?")
 
 print("So, you are %r years old and %r tall." % (age, height))
-print("And you are in grade %r at %r. Good, we're getting information." % (grade, school))
+print("And you are in grade %r at %r. One of your friends is %r. Good, we're getting information." % (grade, school, friend))
 
 favoriteClass = input("What is your favorite class?")
 print("I assume you enjoy going to %r" % (favoriteClass))
@@ -158,7 +159,7 @@ print("Hey, I like %r too!" % food)
 sky = input("What color is the sky?")
 print("%r? You think the sky is %r? Well, if you say so..." % (sky, sky) )
 
-artist = input("Who's your favorite artist")
+artist = input("Who's your favorite artist. I mean like paintings, not music")
 gender = input("Is it a he or a she?")
 print("%r, huh? Yeah, %r has some pretty good paintings" % (artist, gender))
 
@@ -172,9 +173,25 @@ print("""Ready?...
 print("""Average or Amazing: The Life of %r
 Arranged By Kumaren Anand
 
-This book is about the %r. %r is in grade %r at %r. %r is %r years old, 
+Welcome back to the Average or Amazing Series, arranged by Kumaren Anand,
+where examine the lives of everyday people, and judge if they are...
+average or amazing!!! Lets get right to it.
+
+This book is about %r. %r is in grade %r at %r. %r is %r years old, 
 and is currently %r. %r's favorite class is %r, and %r enjoys going to 
-that class. At the time of writing, %r said %r was feeling %r.  """)
+that class. Concerning %r's personal life, %r likes to eat %r and enjoys
+paintings by %r. Surprisingly, %r believes that the color of the sky is 
+%r (which we all now is just plain silly). When asked how %r was feeling 
+at the time of the writing of the book, %r said %r was feeling %r.
+
+Based on the information laid out in front of us, we must decide - is %r's 
+life average, or amazing. In the case of %r year old %r, %r's life is
+...
+AVERAGE!!!
+
+Check out other books in the series such as 
+Average or Amazing: The Life of %r"""
+% (name, name, grade, school, pronoun, age, height, name, favoriteClass, pronoun, name, name, food, artist, name, sky, name, name, pronoun, feeling, name, age, name, name, friend))
 
 
 
