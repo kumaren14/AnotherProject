@@ -191,7 +191,7 @@ AVERAGE!!!
 
 Check out other books in the series such as 
 Average or Amazing: The Life of %r"""
-% (name, name, grade, school, pronoun, age, height, name, favoriteClass, pronoun, name, name, food, artist, name, sky, name, name, pronoun, feeling, name, age, name, name, friend))
+% (name, name, name, grade, school, pronoun, age, height, name, favoriteClass, pronoun, name, name, food, artist, name, sky, name, name, pronoun, feeling, name, age, name, name, friend))
 
 
 
