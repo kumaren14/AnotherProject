@@ -127,10 +127,24 @@ print(''' hello
 my name is kumaren''')
 
 # cool you can ask questions and what gets printed afterwards is based off your response
+print("Hey there, my name is Kumaren. I'm going to write a short biography about you. I need some information, so I'll ask you some questions, okay?")
+
+name = input("What is your first name?")
+print("Sweet, now we have a title for the book.")
+print("""Average or Amazing: The Life of %r   
+Arranged by Kumaren Anand"""
+      % name)
+
+print("Aight, time for some more questions.")
+
 age = input("How old are you?")
+grade = input("What grade are you in?")
+pronoun = input("Do you want to be called he or she?")
+school = input("What school do you go too?")
 height = input("How tall are you?")
 
-print("So, you are %r old and %r tall." % (age, height))
+print("So, you are %r years old and %r tall." % (age, height))
+print("And you are in grade %r at %r. Good, we're getting information." % (grade, school))
 
 favoriteClass = input("What is your favorite class?")
 print("I assume you enjoy going to %r" % (favoriteClass))
@@ -138,16 +152,29 @@ print("I assume you enjoy going to %r" % (favoriteClass))
 feeling = input("How are you feeling today?")
 print("You're %r? Well, as long as you're not dead, you're fine." % feeling)
 
+food = input("What is your favorite food?")
+print("Hey, I like %r too!" % food)
+
 sky = input("What color is the sky?")
-print("""No, it's not %r, idiot. It's the color of my sorrow as I contemplate our inevitable demise.
-
-Just kidding its %r
-
-""" % (sky))
+print("%r? You think the sky is %r? Well, if you say so..." % (sky, sky) )
 
 artist = input("Who's your favorite artist")
 gender = input("Is it a he or a she?")
-print("%r, huh? Yeah, %r have some pretty good paintings" % (artist, gender))
+print("%r, huh? Yeah, %r has some pretty good paintings" % (artist, gender))
+
+print("All right, now we have enough to compile your book.")
+print("""Ready?...
+3...
+2...
+1...
+""")
+
+print("""Average or Amazing: The Life of %r
+Arranged By Kumaren Anand
+
+This book is about the %r. %r is in grade %r at %r. %r is %r years old, 
+and is currently %r. %r's favorite class is %r, and %r enjoys going to 
+that class. At the time of writing, %r said %r was feeling %r.  """)
 
 
 
